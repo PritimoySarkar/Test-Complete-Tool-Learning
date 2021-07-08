@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{32663501-5E04-46C7-9560-3D7A5BABA6A1}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44383.6982175926" objectName="Aliases.browser.pageOnlineShoppingSiteIndiaShopO.textboxAutocomplete" objectLeft="362" objectTop="133" objectRight="1402" objectBottom="173" clickPointX="613" clickPointY="151" imageFileName="tcvi48406843228200.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44383.6982407407" objectName="Aliases.browser.pageOnlineShoppingSiteIndiaShopO.textboxAutocomplete" objectLeft="362" objectTop="133" objectRight="1402" objectBottom="173" clickPointX="-1" clickPointY="-1" imageFileName="tcvi48408906228201.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44383.698275463" objectName="Aliases.browser.pageOnlineShoppingSiteIndiaShopO.linkSearch" objectLeft="1291" objectTop="133" objectRight="1402" objectBottom="173" clickPointX="1362" clickPointY="143" imageFileName="tcvi48412718228202.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

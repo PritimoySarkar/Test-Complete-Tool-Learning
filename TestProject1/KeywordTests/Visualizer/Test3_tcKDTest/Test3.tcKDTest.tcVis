@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{20C797F8-296E-40BA-A1B6-5627E175A3E3}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44383.393125" objectName="Aliases.browser.BrowserWindow" objectLeft="-8" objectTop="-8" objectRight="1928" objectBottom="1088" clickPointX="260" clickPointY="7" imageFileName="tcvi22047203199960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44383.3931365741" objectName="Aliases.browser.BrowserWindow" objectLeft="-8" objectTop="-8" objectRight="1928" objectBottom="1088" clickPointX="233" clickPointY="17" imageFileName="tcvi22048187199963.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44383.3933564815" objectName="Aliases.browser.pageDontnodEntertainmentVideoGam.nav.textnode.textnode2.linkStudio" objectLeft="584" objectTop="253" objectRight="724" objectBottom="303" clickPointX="652" clickPointY="279" imageFileName="tcvi220676091999612.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44383.3934722222" objectName="Aliases.browser.pageDontNodComEnStudio.section.textnode2008" objectLeft="752" objectTop="211" objectRight="797" objectBottom="239" clickPointX="773" clickPointY="221" imageFileName="tcvi220767961999613.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="SearchInTable" key="{2F12A57E-741A-439B-9607-9F7E09B0281F}" path="SearchInTable.py" />
+		<child name="SearchAllResult" key="{5C851E84-277E-4D95-8EE0-E370F11A27E0}" path="SearchAllResult.py" />
+	</children>
+</Root>

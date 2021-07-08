@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{FACC6003-DBB6-4C52-8F30-84B4552F66C6}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="opera" Key="{88211219-1874-40F3-8939-7C3695C190D2}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="opera" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{2004448F-6560-45BF-8448-BDC73725B751}">
+								<Image FileName="1158135349" Left="-8" Top="-8" Right="1928" Bottom="1088" />
+								<TypeInfo Item0="{F214FD2F-4725-425D-88FD-C5A45E696879}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="2. About Recording | TestComplete Documentation - Opera" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{F9ED09FD-2047-4E99-A90D-BDDEDFA79FE2}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{CEC6FB4B-76A8-4A94-BD69-F011A5F9A75D}">
+								<Image FileName="-1316663888" Left="0" Top="0" Right="516" Bottom="1040" />
+								<TypeInfo Item0="{F214FD2F-4725-425D-88FD-C5A45E696879}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageWwwUbisoftComEnUs" Key="{BC6534C1-01FE-4472-8DDA-A38621BF9108}">
+								<Image FileName="1291139709" Left="0" Top="103" Right="1920" Bottom="1078" />
+								<TypeInfo Item0="{D1053217-056C-4259-8065-C94D2DB73C1A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.ubisoft.com/en-us/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{32755C1D-6823-4216-B245-4B1DAB44FC58}">
+										<Image FileName="1378119224" Left="0" Top="103" Right="1903" Bottom="153" />
+										<Selectors>
+											<Selector>
+												<Value Value=".global-navigation--default &gt; div:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;app&apos;]/global-navigation/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//global-navigation/div" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="shadowroot" Key="{14010134-24C1-47B8-88A5-BD13EB992CE3}" ExtendedFind="True">
+												<Image FileName="1378119224" Left="0" Top="103" Right="1903" Bottom="153" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ShadowRoot" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="header" Key="{567ADAF9-CCD5-4199-85C0-B04E314D24A9}">
+														<Image FileName="1378119224" Left="0" Top="103" Right="1903" Bottom="153" />
+														<Selectors>
+															<Selector>
+																<Value Value=".global-navigation" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="textnodeSearchBarDesktop" Key="{F4ED9E06-7B40-4B8F-AFA6-E3200451495E}">
+														<Image FileName="1378119224" Left="60" Top="103" Right="1843" Bottom="103" />
+														<Selectors>
+															<Selector>
+																<Value Value="#search-bar-desktop" />
+															</Selector>
+														</Selectors>
+														<Children>
+															<Child Name="shadowroot" Key="{D54114ED-8378-4B05-9601-4E744B0A2739}" ExtendedFind="True">
+																<Image FileName="1378119224" Left="60" Top="103" Right="1843" Bottom="103" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="ShadowRoot" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="button" Key="{0A44F3D2-683B-46A3-A95B-FC9F36F33452}">
+																		<Image FileName="1378119224" Left="1635" Top="113" Right="1663" Bottom="141" />
+																		<TypeInfo Item0="{A08A4CA4-D39E-43EA-A26F-390D89E4D5CB}" />
+																		<Selectors>
+																			<Selector>
+																				<Value Value="button[aria-label=&apos;Search&apos;]" />
+																			</Selector>
+																			<Selector>
+																				<Value Value="[type=&apos;button&apos;]" />
+																			</Selector>
+																		</Selectors>
+																	</Child>
+																	<Child Name="form" Key="{D75A6220-0765-4FA6-B683-BC1F3ECCF4FB}">
+																		<Image FileName="-542572252" Left="600" Top="111" Right="1320" Bottom="153" />
+																		<Selectors>
+																			<Selector>
+																				<Value Value="[role=&apos;search&apos;]" />
+																			</Selector>
+																		</Selectors>
+																	</Child>
+																	<Child Name="searchbox" Key="{64AE876C-59CC-43B7-87E2-30AE930EEA31}">
+																		<Image FileName="-542572252" Left="600" Top="111" Right="1320" Bottom="153" />
+																		<TypeInfo Item0="{E3059199-C987-45C7-9D73-1F53309D64A2}" />
+																		<Selectors>
+																			<Selector>
+																				<Value Value="[type=&apos;search&apos;]" />
+																			</Selector>
+																			<Selector>
+																				<Value Value="input[type=&apos;search&apos;]" />
+																			</Selector>
+																		</Selectors>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="frameOverlayIframe" Key="{96A19C6D-B6CD-4DFC-BD5E-534F9CCB9A29}">
+										<Image FileName="1471201019" Left="889" Top="103" Right="1843" Bottom="153" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#overlay-iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;overlayIframe&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@id=&apos;overlay-iframe&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;overlay-container&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSearch" Key="{BEA159B1-B5ED-4960-B2B7-B65E03F021E2}">
+								<Image FileName="1291139709" Left="0" Top="103" Right="1920" Bottom="1078" />
+								<TypeInfo Item0="{D1053217-056C-4259-8065-C94D2DB73C1A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.ubisoft.com/en-us/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeSearchPage" Key="{51E7D21D-3181-4E58-8715-855749E10ED9}">
+										<Image FileName="762676695" Left="0" Top="153" Right="1903" Bottom="3256" />
+										<Selectors>
+											<Selector>
+												<Value Value="#search-page" />
+											</Selector>
+											<Selector>
+												<Value Value="//gss-search-page[@id=&apos;search-page&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;app&apos;]/gss-search-page" />
+											</Selector>
+											<Selector>
+												<Value Value="//gss-search-page" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="shadowroot" Key="{D6E72134-F77B-4B4E-85DF-7B06B2A51588}" ExtendedFind="True">
+												<Image FileName="762676695" Left="0" Top="153" Right="1903" Bottom="3256" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ShadowRoot" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textnodeTomClancy" Key="{C7F5C7D2-A044-4B65-A5CE-C078AC28DE07}">
+														<Image FileName="762676695" Left="476" Top="308" Right="659" Bottom="350" />
+														<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+														<Selectors>
+															<Selector>
+																<Value Value=".search-phrase" />
+															</Selector>
+														</Selectors>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="linkDiscover" Key="{A3788807-49B3-4772-A9A1-41B14FCCDF8A}">
+										<Image FileName="1092830310" Left="832" Top="721" Right="1052" Bottom="761" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;en-US&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;DISCOVER&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="a[aria-label=&apos;DISCOVER&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;DISCOVER&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;app&apos;]/div[4]/div/div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;en-US&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDiscover" Key="{33D56199-D862-4459-93BB-7FDCD1D87670}">
+										<Image FileName="1092830310" Left="834" Top="723" Right="1050" Bottom="759" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;DISCOVER&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[data-ccid-l=&apos;7wc7W0g8k6YRfLlWjB2OOU&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;app&apos;]/div[4]/div/div[2]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;en-US&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageUbisoftconnectComEnUs" Key="{3D1A0AF9-6620-4C64-8CBA-B89E1E845C04}">
+								<TypeInfo Item0="{D1053217-056C-4259-8065-C94D2DB73C1A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://ubisoftconnect.com/en-US/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonIAcceptCookies" Key="{2C39E32E-E898-4D14-9CD6-C0E0A5B8981D}">
+										<Image FileName="803030454" Left="1102" Top="697" Right="1332" Bottom="751" />
+										<TypeInfo Item0="{A08A4CA4-D39E-43EA-A26F-390D89E4D5CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#privacy__modal__accept" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;I accept cookies&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@id=&apos;privacy__modal__accept&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;privacy__modal__only&apos;]/div/div[3]/button[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionEcosystemSection" Key="{825BF084-867C-4E01-A90F-DA98076B4ED3}">
+										<Image FileName="-1815777066" Left="0" Top="-560" Right="1903" Bottom="408" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ecosystem-section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;One global ecosystem&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;ecosystem-section&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__next&apos;]/div/div[2]/div/div/div/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOneNetworkForAllPlayers" Key="{A9AB7E35-3E9B-4AE5-8E10-919C99B2D785}">
+										<Image FileName="109597048" Left="982" Top="474" Right="1774" Bottom="614" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[text()=&apos;One network for all players&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ecosystem-section .gradient-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;ecosystem-section&apos;]/div/div[2]/div[2]/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionLoyaltyProgramSection" Key="{B993AAAE-9527-4C94-878B-7F4F91903027}">
+										<Image FileName="-1543006452" Left="0" Top="75" Right="1903" Bottom="1031" />
+										<Selectors>
+											<Selector>
+												<Value Value="#loyalty-program-section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Our loyalty program&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;loyalty-program-section&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__next&apos;]/div/div[2]/div/div/div/section[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/section[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{F5FA1596-DCD7-4ECF-9474-368AC603F380}">
+										<Image FileName="-1543006452" Left="130" Top="311" Right="922" Bottom="381" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[contains(., &apos;Endless celebration&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#loyalty-program-section .gradient-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;loyalty-program-section&apos;]/div/div[2]/div[2]/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]/div/div[2]/div[2]/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEndlessCelebration" Key="{ABBDDE6B-127F-459F-B1E2-1846CAE897D4}">
+										<Image FileName="-1543006452" Left="130" Top="308" Right="702" Bottom="383" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#loyalty-program-section .gradient-text &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Endless celebration&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;loyalty-program-section&apos;]/div/div[2]/div[2]/h2/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionStatsTipsSection" Key="{1C13731B-E95F-4A62-B4BD-B44813B5B81B}">
+										<Image FileName="-1903685967" Left="0" Top="532" Right="1903" Bottom="1500" />
+										<Selectors>
+											<Selector>
+												<Value Value="#stats-tips-section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Stats and tips&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;stats-tips-section&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__next&apos;]/div/div[2]/div/div/div/section[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/section[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{E366D5C1-194C-4B75-9755-63105213477B}">
+										<Image FileName="-1903685967" Left="982" Top="716" Right="1774" Bottom="786" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[contains(., &apos;Know more and improve&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#stats-tips-section .gradient-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;stats-tips-section&apos;]/div/div[2]/div[2]/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[3]/div/div[2]/div[2]/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKnowMoreAndImprove" Key="{3E3CDBEA-C9A2-4FC9-8BD7-E31E431F0811}">
+										<Image FileName="-1903685967" Left="982" Top="713" Right="1697" Bottom="788" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#stats-tips-section .gradient-text &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Know more and improve&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;stats-tips-section&apos;]/div/div[2]/div[2]/h2/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[3]/div/div[2]/div[2]/h2/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionExperiencePcSection" Key="{DD1989DE-8F26-4592-A2CC-8BA34825C1D8}">
+										<Image FileName="1108292410" Left="0" Top="666" Right="1903" Bottom="1605" />
+										<Selectors>
+											<Selector>
+												<Value Value="#experience-pc-section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Ubisoft Connect PC&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;experience-pc-section&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__next&apos;]/div/div[2]/div/div/div/section[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{CFF588AA-EC24-45E7-A6CA-7F0B2AFC594C}">
+										<Image FileName="1108292410" Left="130" Top="808" Right="922" Bottom="948" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[contains(., &apos;Enhance your experience on PC&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#experience-pc-section .gradient-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;experience-pc-section&apos;]/div/div[2]/div[2]/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[4]/div/div[2]/div[2]/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEnhanceYourExperienceOnP" Key="{FE00DF9E-D0B4-49F6-9F95-5B4C01310B72}">
+										<Image FileName="1108292410" Left="130" Top="805" Right="870" Bottom="950" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#experience-pc-section .gradient-text &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Enhance your experience on PC&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;experience-pc-section&apos;]/div/div[2]/div[2]/h2/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[4]/div/div[2]/div[2]/h2/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionAccessSection" Key="{812A8E32-B0B8-40EE-A193-BD84E3DBF07F}">
+										<Image FileName="960060452" Left="412" Top="772" Right="1492" Bottom="1689" />
+										<Selectors>
+											<Selector>
+												<Value Value="#access-section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Access your Ubisoft Connect benefits anytime and anywhere&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;access-section&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__next&apos;]/div/div[2]/div/div/div/section[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAccessYourUbisoftConnect" Key="{DF7AE603-8225-4451-AAB1-9BEFEACE3395}">
+										<Image FileName="960060452" Left="412" Top="836" Right="1492" Bottom="976" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[text()=&apos;Access your Ubisoft Connect benefits anytime and anywhere&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#access-section &gt; .gradient-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;access-section&apos;]/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[5]/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDontnodEntertainmentVideoGam" Key="{E0276E12-4864-4EF2-B920-2A488733A138}">
+								<Image FileName="1469182300" Left="0" Top="103" Right="1920" Bottom="1078" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://dont-nod.com/en" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="nav" Key="{05AB61FE-CA4B-4833-96E0-E563D518FC48}">
+										<Image FileName="913406610" Left="352" Top="253" Right="1552" Bottom="303" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Projects&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".nav-primary" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{20F80997-B87B-48C4-872A-EB53E2E9EFC2}">
+										<Image FileName="913406610" Left="352" Top="253" Right="1552" Bottom="303" />
+										<Selectors>
+											<Selector>
+												<Value Value="#menu-menu" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Projects&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menu-menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{B2E64797-E5F2-4B42-AE18-0B2BCF6E6BCD}">
+										<Image FileName="913406610" Left="584" Top="253" Right="724" Bottom="303" />
+										<Selectors>
+											<Selector>
+												<Value Value="#menu-item-32" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Studio&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;menu-item-32&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menu-menu&apos;]/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkStudio" Key="{DC91CABA-D8D7-4EE4-8CF4-7FF681055E1A}">
+										<Image FileName="913406610" Left="584" Top="253" Right="724" Bottom="303" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;dont-nod.com/en/studio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Studio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#menu-item-32 &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;menu-item-32&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;dont-nod.com/en/studio&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDontNodComEnStudio" Key="{5009A023-3E8D-479D-9668-05BB62CB0ADF}">
+								<Image FileName="1469182300" Left="0" Top="103" Right="1920" Bottom="1078" />
+								<TypeInfo Item0="{D1053217-056C-4259-8065-C94D2DB73C1A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://dont-nod.com/en/studio/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="section" Key="{6E6FB3EF-D0A3-4F84-8DC0-2A414F5BEFB5}">
+										<Image FileName="1582016116" Left="352" Top="188" Right="1552" Bottom="188" />
+										<Selectors>
+											<Selector>
+												<Value Value=".timeline" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2008" Key="{581C6C3C-E46A-4A95-AE63-B0C338B0B089}">
+										<Image FileName="1582016116" Left="752" Top="211" Right="797" Bottom="239" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;2008&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="li:nth-child(1) &gt; .animate-fast" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2011" Key="{8AD5A198-B488-422A-8D98-81E7F5EFFB31}">
+										<Image FileName="-190404130" Left="752" Top="276" Right="797" Bottom="304" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;2011&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="li:nth-child(2) &gt; .animate-fast" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2012" Key="{454D5A41-7243-451F-B69D-BE46D6B5AC02}">
+										<Image FileName="-1972298553" Left="752" Top="341" Right="797" Bottom="369" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;2012&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="li:nth-child(3) &gt; .animate-fast" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode20112" Key="{E272954E-DC9E-49B3-B2C2-9407D4A0DF6C}">
+										<Image FileName="742298350" Left="752" Top="283" Right="832" Bottom="348" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;2011&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".dates li:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div/div[2]/ul/li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2014" Key="{F48A93C0-591C-43A9-9A7D-EC42756B3353}">
+										<Image FileName="29895009" Left="752" Top="471" Right="797" Bottom="499" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;2014&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="li:nth-child(5) &gt; .animate-fast" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHome" Key="{3522A2FA-2E5D-4249-A918-5467FC3EF2A1}">
+								<Image FileName="1396805619" Left="0" Top="103" Right="1920" Bottom="1078" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://demo.themeparrot.com/shoplook/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerT3Header" Key="{971EDD46-24DC-409F-8D21-8D36EDA5CDE7}">
+										<Image FileName="1396805619" Left="0" Top="103" Right="1903" Bottom="215" />
+										<Selectors>
+											<Selector>
+												<Value Value="#t3-header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;ShopLook&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;t3-header&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{A3510656-98DD-4E04-A5C9-D814D798CA2C}">
+										<Image FileName="1396805619" Left="1104" Top="143" Right="1362" Bottom="184" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".pull-right &gt; .nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;t3-header&apos;]/div/div/div[2]/div[2]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{5C7A6BDE-0219-46E2-892F-715F765DF582}">
+										<Image FileName="1396805619" Left="1104" Top="143" Right="1206" Bottom="184" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".item-139" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;t3-header&apos;]/div/div/div[2]/div[2]/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyAccount" Key="{CB09B947-752D-4047-92C0-9BEE71CAFCEE}">
+										<Image FileName="1396805619" Left="1104" Top="143" Right="1206" Bottom="184" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/shoplook/index.php/my-account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;My Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/shoplook/index.php/my-account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;t3-header&apos;]/div/div/div[2]/div[2]/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/shoplook/index.php/my-account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMyAccount" Key="{F1DC3DC1-ACE5-4201-8AFD-F5DDBA19790A}">
+								<Image FileName="1396805619" Left="0" Top="103" Right="1920" Bottom="1078" />
+								<TypeInfo Item0="{D1053217-056C-4259-8065-C94D2DB73C1A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://demo.themeparrot.com/shoplook/index.php/my-account" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formJ2storeorderloginform" Key="{CBC7F61A-696D-4DA4-B3AB-5EF8D48F445F}">
+										<Image FileName="-1226826181" Left="382" Top="456" Right="840" Bottom="892" />
+										<Selectors>
+											<Selector>
+												<Value Value="#j2storeOrderLoginForm" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;j2storeOrderLoginForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;akeeba-renderjoomla&apos;]/div/div/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelUsername" Key="{CBA4C6CB-B590-4ECA-9BCE-B756626EDF87}">
+										<Image FileName="-1226826181" Left="413" Top="487" Right="809" Bottom="570" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".j2storeUserName" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;j2storeOrderLoginForm&apos;]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/form/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{D267AAB3-35EF-423A-92EF-90CDC81A86C1}">
+										<Image FileName="-1226826181" Left="413" Top="528" Right="809" Bottom="570" />
+										<TypeInfo Item0="{E3059199-C987-45C7-9D73-1F53309D64A2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;j2storeOrderLoginForm&apos;]/label/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{654C6CAF-C0CD-4952-B759-E92459C471F7}">
+										<Image FileName="-1473650402" Left="367" Top="371" Right="1537" Bottom="922" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".j2store &gt; .row" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;&lt;!--&apos;)])[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;akeeba-renderjoomla&apos;]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//body/div[2]/div/div/div/div[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelPassword" Key="{9D9CD418-213D-4825-9AD9-01225DEC8762}">
+										<Image FileName="-1226826181" Left="413" Top="600" Right="809" Bottom="683" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Password&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".j2storePassword" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;j2storeOrderLoginForm&apos;]/label[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{3B6F3C55-75D8-49A7-992A-54614E8EB962}">
+										<Image FileName="-1226826181" Left="413" Top="641" Right="809" Bottom="683" />
+										<TypeInfo Item0="{E3059199-C987-45C7-9D73-1F53309D64A2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;j2storeOrderLoginForm&apos;]/label[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogin" Key="{7C0F0D1B-7446-413C-8BBA-6F456C50E333}">
+										<Image FileName="-270643744" Left="413" Top="777" Right="518" Bottom="823" />
+										<TypeInfo Item0="{A08A4CA4-D39E-43EA-A26F-390D89E4D5CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;j2storeOrderLoginForm&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelPleaseEnterTheUsername" Key="{B6837851-4BC1-4837-8C45-896D3917D6DE}">
+										<Image FileName="348815540" Left="413" Top="585" Right="809" Bottom="624" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Please enter the username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".error:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;j2storeOrderLoginForm&apos;]/label/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLoginUbisoftWebauth" Key="{C3F2798F-81BF-44C2-AD05-2186B820D4BB}">
+								<Image FileName="-1640772156" Left="8" Top="60" Right="488" Bottom="859" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://connect.ubisoft.com/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{91536E4C-EB68-474F-BB87-EB056EFFD472}">
+										<Image FileName="-1640772156" Left="24" Top="298" Right="472" Bottom="570" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="section &gt; .ng-untouched" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailAddress" Key="{736F46B4-BB59-4F79-91BC-3F43B0024E15}">
+										<Image FileName="-1640772156" Left="24" Top="298" Right="472" Bottom="354" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#AuthEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[text()=&apos;Email address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;AuthEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{65250875-E83C-449F-A185-E73D63843A6C}">
+										<Image FileName="-672262819" Left="24" Top="409" Right="472" Bottom="465" />
+										<TypeInfo Item0="{E3059199-C987-45C7-9D73-1F53309D64A2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#AuthPassword" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[text()=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;AuthPassword&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-login-password/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{A5DC0A0B-73A9-4C06-BE06-C3E1378F2ADD}">
+										<Image FileName="867862451" Left="24" Top="547" Right="472" Bottom="595" />
+										<TypeInfo Item0="{A08A4CA4-D39E-43EA-A26F-390D89E4D5CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;LOG IN&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".btn" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageOnlineShoppingSiteIndiaShopO" Key="{412D48EE-D5AB-48D9-A717-D3F1375DBB43}">
+								<Image FileName="-847219027" Left="0" Top="103" Right="1920" Bottom="1078" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.shopclues.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{0EC4CE82-8BEF-4BDD-AF0F-509EA5DAE0C8}">
+										<Image FileName="-847219027" Left="1729" Top="145" Right="1772" Bottom="169" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sign-in" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;sign-in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/ul/li[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{3FF7D094-D62B-4BA8-8EFB-BED3C2FFF031}">
+										<Image FileName="-847219027" Left="1729" Top="145" Right="1772" Bottom="169" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Sign In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#sign-in &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@onclick=&apos;loginPopup();&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;sign-in&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/ul/li[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMainUserLogin" Key="{6982003E-69C2-4F4D-88A3-CBD85B2C2FF0}">
+										<Image FileName="1225203223" Left="802" Top="394" Right="1277" Bottom="424" />
+										<TypeInfo Item0="{E3059199-C987-45C7-9D73-1F53309D64A2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main_user_login" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;user_login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;main_user_login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login&apos;]/form/fieldset/div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{4AB0860E-C1F0-4A66-B650-D3B189153F16}">
+										<Image FileName="-895998329" Left="802" Top="459" Right="1277" Bottom="489" />
+										<TypeInfo Item0="{E3059199-C987-45C7-9D73-1F53309D64A2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".s_row:nth-child(3) &gt; [type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login&apos;]/form/fieldset/div[3]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset/div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogin" Key="{5601EA4C-CEA9-4AC0-A1E0-93E6A792004C}">
+										<Image FileName="1088993544" Left="802" Top="540" Right="1030" Bottom="583" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login_button" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;login_button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login&apos;]/form/fieldset/div[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset/div[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeIncorrectLoginDetails" Key="{AA8B5A57-7FF7-4CFA-AD21-3D17BF66C87E}">
+										<Image FileName="-1508064283" Left="802" Top="494" Right="1277" Bottom="508" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Incorrect login details.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".s_row:nth-child(3) .password_err" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login&apos;]/form/fieldset/div[3]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePleaseEnterEmailIdOrMobi" Key="{C7D269B6-7DB3-47A7-86B9-81E181288C5E}">
+										<Image FileName="-1288531470" Left="802" Top="429" Right="1277" Bottom="443" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Please enter email id or mobile number.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".s_row:nth-child(2) &gt; .error_text:nth-child(4) &gt; .user_login_err" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login&apos;]/form/fieldset/div[2]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset/div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAutocomplete" Key="{EA4BC93B-AB20-432A-9360-40C030CC9D14}">
+										<Image FileName="-726219991" Left="362" Top="133" Right="1402" Bottom="173" />
+										<TypeInfo Item0="{E3059199-C987-45C7-9D73-1F53309D64A2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#autocomplete" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;autocomplete&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@id=&apos;search&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSearch" Key="{E74680C1-25F2-4FCE-98FD-8732589BFC52}">
+										<Image FileName="-705745989" Left="1291" Top="133" Right="1402" Bottom="173" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".srch_action" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@onclick=&apos;searchTrigger()&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@id=&apos;search&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{56E1BE54-1A3B-4903-A388-63B950AE3687}">
+										<Image FileName="105610596" Left="802" Top="370" Right="1277" Bottom="514" />
+										<Selectors>
+											<Selector>
+												<Value Value=".update_phone_cont &gt; .default_form" />
+											</Selector>
+											<Selector>
+												<Value Value="(//form[contains(.,&apos;Enter your mobile number&apos;)])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;loginModelBox&apos;]/div/div[2]/div[11]/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUpdatePhone" Key="{5DD1E3CD-C357-4A9F-8221-C8D4D06D752E}">
+										<Image FileName="105610596" Left="802" Top="405" Right="1277" Bottom="435" />
+										<TypeInfo Item0="{E3059199-C987-45C7-9D73-1F53309D64A2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#update_phone" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;update_phone&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;loginModelBox&apos;]/div/div[2]/div[11]/div/form/div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]/div/form/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSkip" Key="{8286CF02-78CA-4843-ACCC-50AFFC7706DA}">
+										<Image FileName="-189571073" Left="1055" Top="480" Right="1085" Bottom="499" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".default_form:nth-child(2) &gt; .btn_container &gt; .skip &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@onclick=&apos;signupLoginDsktpMngr.continueAfterPhoneverification(this);&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(.,&apos;Skip&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;loginModelBox&apos;]/div/div[2]/div[11]/div/form/div[3]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{269AE3DF-ADA8-44BD-8B23-6332CC03A0AB}">
+										<Image FileName="1493497569" Left="1686" Top="148" Right="1772" Bottom="172" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sc_uname" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Hi Pritimoy&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;sc_uname&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/ul/li[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHiPritimoy" Key="{B359737A-1895-4BDD-8783-325259133BAF}">
+										<Image FileName="1493497569" Left="1686" Top="148" Right="1772" Bottom="172" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Hi Pritimoy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#sc_uname &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;sc_uname&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/ul/li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkACloseId" Key="{6D0E65C7-A608-4657-8315-EA8989EA29D9}">
+										<Image FileName="-819539988" Left="1348" Top="316" Right="1362" Bottom="330" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#a_close_id" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;a_close_id&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;common_popupModel&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSearch2" Key="{22066661-317D-4912-BC51-AE7DB59E995A}">
+								<TypeInfo Item0="{D1053217-056C-4259-8065-C94D2DB73C1A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.shopclues.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeVeejeeMagneticLearningEn" Key="{FB19318F-2655-42A2-AD2F-843442B7E6B6}">
+										<Image FileName="1448135184" Left="390" Top="602" Right="702" Bottom="640" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[text()=&apos;VEEJEE&#32;&#32;Magnetic Learning English Capital Alphabets and&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".row:nth-child(2) &gt; .column:nth-child(1) h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;product_list&apos;]/div[2]/div/a/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;//www.shopclues.com/veejee--magnetic-learning-english-capital-alphabets-and-numeric-letters--abcd-and-1234--multi-colour--for-kids.-146719889.html&apos;)]/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLifeIsStrangeWikipedia" Key="{540043A5-191A-4EDD-B070-4C63BD3EA458}">
+								<Image FileName="1235279618" Left="8" Top="111" Right="1928" Bottom="1086" />
+								<TypeInfo Item0="{7249F3E8-326A-4431-B141-FFC940251D6E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://en.wikipedia.org/wiki/Life_Is_Strange" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodePictured" Key="{4B5FCEB0-8B13-4D7E-90BC-8C1C49DC2921}">
+										<Image FileName="1235279618" Left="1068" Top="482" Right="1119" Bottom="498" />
+										<TypeInfo Item0="{B144132B-5DD2-465B-93E6-E01DD07AF481}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//i[text()=&apos;Pictured&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(4) &gt; .table-na &gt; i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mw-content-text&apos;]/div/table[4]/tbody/tr[4]/td[6]/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[6]/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGuest" Key="{0D9F510F-A6E0-4329-A4D0-655CF7541B41}">
+										<Image FileName="-535160914" Left="1067" Top="557" Right="1104" Bottom="573" />
+										<TypeInfo Item0="{B2834492-83A3-4591-A362-9BFACA1A726C}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".table-cast:nth-child(5) &gt; [href=&apos;/wiki/Guest_appearance&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(.,&apos;Guest&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[@title=&apos;&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mw-content-text&apos;]/div/table[4]/tbody/tr[7]/td[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;/wiki/Guest_appearance&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[7]/td[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{CAB41DFE-B729-4220-A168-E4E8D04F72AA}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndCalculator" Key="{D67C9381-8177-46A9-B465-65BF78DCA5BB}">
+								<Image FileName="1430515356" Left="0" Top="0" Right="480" Bottom="541" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Calculator" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="opera" Owner="{88211219-1874-40F3-8939-7C3695C190D2}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{2004448F-6560-45BF-8448-BDC73725B751}" />
+		</Child>
+		<Child Name="browser" Owner="{F9ED09FD-2047-4E99-A90D-BDDEDFA79FE2}">
+			<Child Name="BrowserWindow" Owner="{CEC6FB4B-76A8-4A94-BD69-F011A5F9A75D}" />
+			<Child Name="pageWwwUbisoftComEnUs" Owner="{BC6534C1-01FE-4472-8DDA-A38621BF9108}">
+				<Child Name="panel" Owner="{32755C1D-6823-4216-B245-4B1DAB44FC58}">
+					<Child Name="shadowroot" Owner="{14010134-24C1-47B8-88A5-BD13EB992CE3}">
+						<Child Name="header" Owner="{567ADAF9-CCD5-4199-85C0-B04E314D24A9}">
+							<Child Name="textnodeSearchBarDesktop" Owner="{F4ED9E06-7B40-4B8F-AFA6-E3200451495E}">
+								<Child Name="shadowroot" Owner="{D54114ED-8378-4B05-9601-4E744B0A2739}">
+									<Child Name="button" Owner="{0A44F3D2-683B-46A3-A95B-FC9F36F33452}" />
+									<Child Name="form" Owner="{D75A6220-0765-4FA6-B683-BC1F3ECCF4FB}">
+										<Child Name="searchbox" Owner="{64AE876C-59CC-43B7-87E2-30AE930EEA31}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="frameOverlayIframe" Owner="{96A19C6D-B6CD-4DFC-BD5E-534F9CCB9A29}" />
+			</Child>
+			<Child Name="pageSearch" Owner="{BEA159B1-B5ED-4960-B2B7-B65E03F021E2}">
+				<Child Name="textnodeSearchPage" Owner="{51E7D21D-3181-4E58-8715-855749E10ED9}">
+					<Child Name="shadowroot" Owner="{D6E72134-F77B-4B4E-85DF-7B06B2A51588}">
+						<Child Name="textnodeTomClancy" Owner="{C7F5C7D2-A044-4B65-A5CE-C078AC28DE07}" />
+					</Child>
+				</Child>
+				<Child Name="linkDiscover" Owner="{A3788807-49B3-4772-A9A1-41B14FCCDF8A}">
+					<Child Name="textnodeDiscover" Owner="{33D56199-D862-4459-93BB-7FDCD1D87670}" />
+				</Child>
+			</Child>
+			<Child Name="pageUbisoftconnectComEnUs" Owner="{3D1A0AF9-6620-4C64-8CBA-B89E1E845C04}">
+				<Child Name="buttonIAcceptCookies" Owner="{2C39E32E-E898-4D14-9CD6-C0E0A5B8981D}" />
+				<Child Name="sectionEcosystemSection" Owner="{825BF084-867C-4E01-A90F-DA98076B4ED3}">
+					<Child Name="textnodeOneNetworkForAllPlayers" Owner="{A9AB7E35-3E9B-4AE5-8E10-919C99B2D785}" />
+				</Child>
+				<Child Name="sectionLoyaltyProgramSection" Owner="{B993AAAE-9527-4C94-878B-7F4F91903027}">
+					<Child Name="textnode" Owner="{F5FA1596-DCD7-4ECF-9474-368AC603F380}">
+						<Child Name="textnodeEndlessCelebration" Owner="{ABBDDE6B-127F-459F-B1E2-1846CAE897D4}" />
+					</Child>
+				</Child>
+				<Child Name="sectionStatsTipsSection" Owner="{1C13731B-E95F-4A62-B4BD-B44813B5B81B}">
+					<Child Name="textnode2" Owner="{E366D5C1-194C-4B75-9755-63105213477B}">
+						<Child Name="textnodeKnowMoreAndImprove" Owner="{3E3CDBEA-C9A2-4FC9-8BD7-E31E431F0811}" />
+					</Child>
+				</Child>
+				<Child Name="sectionExperiencePcSection" Owner="{DD1989DE-8F26-4592-A2CC-8BA34825C1D8}">
+					<Child Name="textnode3" Owner="{CFF588AA-EC24-45E7-A6CA-7F0B2AFC594C}">
+						<Child Name="textnodeEnhanceYourExperienceOnP" Owner="{FE00DF9E-D0B4-49F6-9F95-5B4C01310B72}" />
+					</Child>
+				</Child>
+				<Child Name="sectionAccessSection" Owner="{812A8E32-B0B8-40EE-A193-BD84E3DBF07F}">
+					<Child Name="textnodeAccessYourUbisoftConnect" Owner="{DF7AE603-8225-4451-AAB1-9BEFEACE3395}" />
+				</Child>
+			</Child>
+			<Child Name="pageDontnodEntertainmentVideoGam" Owner="{E0276E12-4864-4EF2-B920-2A488733A138}">
+				<Child Name="nav" Owner="{05AB61FE-CA4B-4833-96E0-E563D518FC48}">
+					<Child Name="textnode" Owner="{20F80997-B87B-48C4-872A-EB53E2E9EFC2}">
+						<Child Name="textnode2" Owner="{B2E64797-E5F2-4B42-AE18-0B2BCF6E6BCD}">
+							<Child Name="linkStudio" Owner="{DC91CABA-D8D7-4EE4-8CF4-7FF681055E1A}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageDontNodComEnStudio" Owner="{5009A023-3E8D-479D-9668-05BB62CB0ADF}">
+				<Child Name="section" Owner="{6E6FB3EF-D0A3-4F84-8DC0-2A414F5BEFB5}">
+					<Child Name="textnode2008" Owner="{581C6C3C-E46A-4A95-AE63-B0C338B0B089}" />
+					<Child Name="textnode2011" Owner="{8AD5A198-B488-422A-8D98-81E7F5EFFB31}" />
+					<Child Name="textnode2012" Owner="{454D5A41-7243-451F-B69D-BE46D6B5AC02}" />
+					<Child Name="textnode20112" Owner="{E272954E-DC9E-49B3-B2C2-9407D4A0DF6C}" />
+					<Child Name="textnode2014" Owner="{F48A93C0-591C-43A9-9A7D-EC42756B3353}" />
+				</Child>
+			</Child>
+			<Child Name="pageHome" Owner="{3522A2FA-2E5D-4249-A918-5467FC3EF2A1}">
+				<Child Name="headerT3Header" Owner="{971EDD46-24DC-409F-8D21-8D36EDA5CDE7}">
+					<Child Name="textnode" Owner="{A3510656-98DD-4E04-A5C9-D814D798CA2C}">
+						<Child Name="textnode2" Owner="{5C7A6BDE-0219-46E2-892F-715F765DF582}">
+							<Child Name="linkMyAccount" Owner="{CB09B947-752D-4047-92C0-9BEE71CAFCEE}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageMyAccount" Owner="{F1DC3DC1-ACE5-4201-8AFD-F5DDBA19790A}">
+				<Child Name="formJ2storeorderloginform" Owner="{CBC7F61A-696D-4DA4-B3AB-5EF8D48F445F}">
+					<Child Name="labelUsername" Owner="{CBA4C6CB-B590-4ECA-9BCE-B756626EDF87}">
+						<Child Name="textboxUsername" Owner="{D267AAB3-35EF-423A-92EF-90CDC81A86C1}" />
+						<Child Name="labelPleaseEnterTheUsername" Owner="{B6837851-4BC1-4837-8C45-896D3917D6DE}" />
+					</Child>
+					<Child Name="labelPassword" Owner="{9D9CD418-213D-4825-9AD9-01225DEC8762}">
+						<Child Name="passwordboxPassword" Owner="{3B6F3C55-75D8-49A7-992A-54614E8EB962}" />
+					</Child>
+					<Child Name="submitbuttonLogin" Owner="{7C0F0D1B-7446-413C-8BBA-6F456C50E333}" />
+				</Child>
+				<Child Name="panel" Owner="{654C6CAF-C0CD-4952-B759-E92459C471F7}" />
+			</Child>
+			<Child Name="pageLoginUbisoftWebauth" Owner="{C3F2798F-81BF-44C2-AD05-2186B820D4BB}">
+				<Child Name="form" Owner="{91536E4C-EB68-474F-BB87-EB056EFFD472}">
+					<Child Name="emailinputEmailAddress" Owner="{736F46B4-BB59-4F79-91BC-3F43B0024E15}" />
+					<Child Name="passwordboxPassword" Owner="{65250875-E83C-449F-A185-E73D63843A6C}" />
+					<Child Name="buttonLogIn" Owner="{A5DC0A0B-73A9-4C06-BE06-C3E1378F2ADD}" />
+				</Child>
+			</Child>
+			<Child Name="pageOnlineShoppingSiteIndiaShopO" Owner="{412D48EE-D5AB-48D9-A717-D3F1375DBB43}">
+				<Child Name="textnode" Owner="{0EC4CE82-8BEF-4BDD-AF0F-509EA5DAE0C8}">
+					<Child Name="SignInOption" Owner="{3FF7D094-D62B-4BA8-8EFB-BED3C2FFF031}" />
+				</Child>
+				<Child Name="UsernameInputField" Owner="{6982003E-69C2-4F4D-88A3-CBD85B2C2FF0}" />
+				<Child Name="PasswordInputField" Owner="{4AB0860E-C1F0-4A66-B650-D3B189153F16}" />
+				<Child Name="LoginButton" Owner="{5601EA4C-CEA9-4AC0-A1E0-93E6A792004C}" />
+				<Child Name="textnodeIncorrectLoginDetails" Owner="{AA8B5A57-7FF7-4CFA-AD21-3D17BF66C87E}" />
+				<Child Name="textnodePleaseEnterEmailIdOrMobi" Owner="{C7D269B6-7DB3-47A7-86B9-81E181288C5E}" />
+				<Child Name="textboxAutocomplete" Owner="{EA4BC93B-AB20-432A-9360-40C030CC9D14}" />
+				<Child Name="linkSearch" Owner="{E74680C1-25F2-4FCE-98FD-8732589BFC52}" />
+				<Child Name="form" Owner="{56E1BE54-1A3B-4903-A388-63B950AE3687}">
+					<Child Name="textboxUpdatePhone" Owner="{5DD1E3CD-C357-4A9F-8221-C8D4D06D752E}" />
+					<Child Name="linkSkip" Owner="{8286CF02-78CA-4843-ACCC-50AFFC7706DA}" />
+				</Child>
+				<Child Name="textnode2" Owner="{269AE3DF-ADA8-44BD-8B23-6332CC03A0AB}">
+					<Child Name="linkHiPritimoy" Owner="{B359737A-1895-4BDD-8783-325259133BAF}" />
+				</Child>
+				<Child Name="PopupCloseButton" Owner="{6D0E65C7-A608-4657-8315-EA8989EA29D9}" />
+			</Child>
+			<Child Name="pageSearch2" Owner="{22066661-317D-4912-BC51-AE7DB59E995A}">
+				<Child Name="textnodeVeejeeMagneticLearningEn" Owner="{FB19318F-2655-42A2-AD2F-843442B7E6B6}" />
+			</Child>
+			<Child Name="pageLifeIsStrangeWikipedia" Owner="{540043A5-191A-4EDD-B070-4C63BD3EA458}">
+				<Child Name="textnodePictured" Owner="{4B5FCEB0-8B13-4D7E-90BC-8C1C49DC2921}" />
+				<Child Name="linkGuest" Owner="{0D9F510F-A6E0-4329-A4D0-655CF7541B41}" />
+			</Child>
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{CAB41DFE-B729-4220-A168-E4E8D04F72AA}">
+			<Child Name="wndCalculator" Owner="{D67C9381-8177-46A9-B465-65BF78DCA5BB}" />
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="Shopclues">
+			<child name="OpenSite" key="{0F4672DB-4188-404C-B2CC-3A9F447BA3CE}" path="OpenSite.tcKDTest" />
+			<child name="Login" key="{FA989C49-9FAC-414E-9FA0-1642316CF8F2}" path="Login.tcKDTest" />
+			<child name="Search" key="{32663501-5E04-46C7-9560-3D7A5BABA6A1}" path="Search.tcKDTest" />
+		</folder>
+		<folder name="Others">
+			<child name="Test1" key="{E9646F94-EF1E-472F-8F3F-BE7599AFB179}" path="Test1.tcKDTest" />
+			<child name="Test3" key="{20C797F8-296E-40BA-A1B6-5627E175A3E3}" path="Test3.tcKDTest" />
+		</folder>
+		<folder name="WebTable">
+			<child name="SearchTable" key="{D8EA162A-7A86-4656-B023-7D85E5D83F8A}" path="SearchTable.tcKDTest" />
+		</folder>
+	</children>
+</Root>
